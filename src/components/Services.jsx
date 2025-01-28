@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -118,10 +119,16 @@ const Services = () => {
             started!
           </p>
           <a
-            href="/contact"
+            href=""
             className="bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors"
           >
-            Get in Touch
+            {" "}
+            <Link
+              to="/Contact"
+              className="text-gray-600 hover:text-blue-600 font-medium"
+            >
+              Get in Touch
+            </Link>{" "}
           </a>
         </div>
       </section>
