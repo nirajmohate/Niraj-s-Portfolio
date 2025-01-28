@@ -1,45 +1,151 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className="bg-gray-100 text-gray-800">
       {/* Navbar */}
-      
+
       <nav className="bg-white shadow-md py-4 sticky top-0 z-50">
         <div className="container mx-auto flex justify-between items-center px-4">
           <h2 className="text-2xl font-bold text-blue-600">Niraj Mohate</h2>
           <div className="hidden md:flex space-x-6">
-            
             {/* <Link to="/">Home</Link> */}
-           <a href=""> <Link to="/About"  className="text-gray-600 hover:text-blue-600 font-medium">
-              About
-            </Link> </a>
+            <a href="">
+              {" "}
+              <Link
+                to="/About"
+                className="text-gray-600 hover:text-blue-600 font-medium"
+              >
+                About
+              </Link>{" "}
+            </a>
 
-           <a href=""> <Link to="/Contact"  className="text-gray-600 hover:text-blue-600 font-medium">
-              Contact
-            </Link> </a>
+            <a href="">
+              {" "}
+              <Link
+                to="/Contact"
+                className="text-gray-600 hover:text-blue-600 font-medium"
+              >
+                Contact
+              </Link>{" "}
+            </a>
 
-           <a href=""> <Link to="/Skill"  className="text-gray-600 hover:text-blue-600 font-medium">
-           Skill
-            </Link> </a>
+            <a href="">
+              {" "}
+              <Link
+                to="/Skill"
+                className="text-gray-600 hover:text-blue-600 font-medium"
+              >
+                Skill
+              </Link>{" "}
+            </a>
 
-           <a href=""> <Link to="/Services"  className="text-gray-600 hover:text-blue-600 font-medium">
-              Services
-            </Link> </a>
+            <a href="">
+              {" "}
+              <Link
+                to="/Services"
+                className="text-gray-600 hover:text-blue-600 font-medium"
+              >
+                Services
+              </Link>{" "}
+            </a>
 
-           <a href=""> <Link to="/Project"  className="text-gray-600 hover:text-blue-600 font-medium">
-              Project
-            </Link> </a>
-
+            <a href="">
+              {" "}
+              <Link
+                to="/Project"
+                className="text-gray-600 hover:text-blue-600 font-medium"
+              >
+                Project
+              </Link>{" "}
+            </a>
           </div>
-          <button id="menu-btn" className="md:hidden text-blue-600 text-2xl">
+          <button
+            onClick={toggleSidebar}
+            id="menu-btn"
+            className="md:hidden text-blue-600 text-2xl"
+          >
             ☰
           </button>
         </div>
       </nav>
+      <div
+        className={`fixed top-0 left-0 w-64 h-full bg-gray-800 text-white transform ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        } transition-transform duration-300 md:hidden`}
+      >
+        {/* Close Button */}
+        <button
+          onClick={toggleSidebar}
+          className="absolute top-4 right-4 text-2xl text-white"
+        >
+          ✕
+        </button>
 
-     
+        <ul className="flex flex-col space-y-6 mt-16 p-6">
+          <li>
+            <Link
+              to="/"
+              className="block text-gray-300 hover:text-white"
+              onClick={toggleSidebar}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className="block text-gray-300 hover:text-white"
+              onClick={toggleSidebar}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className="block text-gray-300 hover:text-white"
+              onClick={toggleSidebar}
+            >
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/skill"
+              className="block text-gray-300 hover:text-white"
+              onClick={toggleSidebar}
+            >
+              Skill
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/services"
+              className="block text-gray-300 hover:text-white"
+              onClick={toggleSidebar}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/project"
+              className="block text-gray-300 hover:text-white"
+              onClick={toggleSidebar}
+            >
+              Project
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       {/* Main Section */}
       <header
@@ -66,12 +172,12 @@ const Home = () => {
             , graduating in 2025.
           </p>
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-            <a
+            {/* <a
               href="#contact"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 font-semibold"
             >
               Hire Me
-            </a>
+            </a> */}
             <a
               href="Niraj Mohate sample resume.pdf"
               download

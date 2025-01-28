@@ -118,7 +118,7 @@ const Services = () => {
             started!
           </p>
           <a
-            href="#contact"
+            href="/contact"
             className="bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors"
           >
             Get in Touch
