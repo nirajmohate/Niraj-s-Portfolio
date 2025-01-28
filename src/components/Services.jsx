@@ -118,7 +118,7 @@ const Services = () => {
             Contact us today to discuss your project requirements and get
             started!
           </p>
-          <a
+          {/* <a
             href=""
             className="bg-white text-blue-600 font-bold px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors"
           >
@@ -129,7 +129,7 @@ const Services = () => {
             >
               Get in Touch
             </Link>{" "}
-          </a>
+          </a> */}
         </div>
       </section>
 
