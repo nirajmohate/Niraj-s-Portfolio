@@ -161,26 +161,28 @@ const Home = () => {
             A motivated and skilled Full-Stack Developer with expertise in HTML,
             CSS, JavaScript, React, Tailwind CSS, Node.js, Express, and MongoDB.
             Proven experience in creating dynamic web applications like an{" "}
+            <span className="font-semibold text-blue-600">Code Reviewer</span>{" "}
+            and{" "}
             <span className="font-semibold text-blue-600">
-              E-commerce Website
-            </span>{" "}
-            and <span className="font-semibold text-blue-600">Portfolio</span>.
-            Currently pursuing a{" "}
+              Real Time Chat App
+            </span>
+            . Currently pursuing a{" "}
             <span className="font-semibold text-blue-600">
               Bachelor’s degree in Computer Applications (BCA)
             </span>
             , graduating in 2025.
           </p>
           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-            {/* <a
-              href="#contact"
+            <a
+              href="mailto:nirajmohate@gmail.com"
               className="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-500 transition duration-300 font-semibold"
             >
               Hire Me
-            </a> */}
+            </a>
+
             <a
-              href="Niraj Mohate sample resume.pdf"
-              download
+              href="/Niraj_Mohate_Resume.pdf"
+              download="Niraj_Mohate_Resume.pdf"
               className="bg-gray-100 text-blue-600 px-6 py-3 rounded-lg shadow-lg border border-blue-600 hover:bg-blue-600 hover:text-white transition duration-300 font-semibold"
             >
               Download Resume

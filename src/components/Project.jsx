@@ -19,42 +19,17 @@ const Project = () => {
           {/* Project Card  */}
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="https://via.placeholder.com/400x200"
-              alt="E-commerce Website"
+              src="\public\gemini clone.png"
+              alt="Gemini App Clone"
               class="w-full h-48 object-cover"
             />
             <div class="p-6">
-              <h2 class="text-xl font-bold mb-2">E-commerce Website</h2>
+              <h2 class="text-xl font-bold mb-2">Gemini App Clone</h2>
               <p class="text-gray-600 text-sm mb-4">
-                A fully responsive e-commerce website with features like product
-                listings, cart management, and secure checkout. Built using
-                React, Tailwind, and Node.js.
+                A clone of the Gemini app built with modern web technologies.
               </p>
               <a
-                href="https://nirajmohate.github.io/Ecommerce-Website/"
-                target="_blank"
-                class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500"
-              >
-                View Project
-              </a>
-            </div>
-          </div>
-
-          {/* Add More Project Cards  */}
-          <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
-            <img
-              src="https://via.placeholder.com/400x200"
-              alt="Color Palette Generator"
-              class="w-full h-48 object-cover"
-            />
-            <div class="p-6">
-              <h2 class="text-xl font-bold mb-2">Color Palette Generator</h2>
-              <p class="text-gray-600 text-sm mb-4">
-                A tool to generate and explore color palettes for your design
-                projects. Built with JavaScript, HTML, and CSS.
-              </p>
-              <a
-                href="https://nirajmohate.github.io/color-palette-generator/"
+                href="https://gemini-clone-7lro.vercel.app/"
                 target="_blank"
                 class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500"
               >
@@ -65,18 +40,17 @@ const Project = () => {
 
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="https://via.placeholder.com/400x200"
-              alt="Notes App"
+              src="\public\animated cricket.png"
+              alt="Animated Cricket Web"
               class="w-full h-48 object-cover"
             />
             <div class="p-6">
-              <h2 class="text-xl font-bold mb-2">Notes App</h2>
+              <h2 class="text-xl font-bold mb-2">Animated Cricket Web</h2>
               <p class="text-gray-600 text-sm mb-4">
-                A simple yet efficient app to create and manage your notes.
-                Built with JavaScript, HTML, and CSS.
+                A dynamic animated cricket website for sports lovers.
               </p>
               <a
-                href="https://nirajmohate.github.io/Notes-App/"
+                href="https://animated-cricket-website.vercel.app/"
                 target="_blank"
                 class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500"
               >
@@ -87,18 +61,17 @@ const Project = () => {
 
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="https://via.placeholder.com/400x200"
-              alt="Password Strength Checker"
+              src="\public\chat app.png"
+              alt="Real-Time Chat App"
               class="w-full h-48 object-cover"
             />
             <div class="p-6">
-              <h2 class="text-xl font-bold mb-2">Password Strength Checker</h2>
+              <h2 class="text-xl font-bold mb-2">Real-Time Chat App</h2>
               <p class="text-gray-600 text-sm mb-4">
-                A handy tool to check the strength of your passwords and suggest
-                improvements. Built with JavaScript, HTML, and CSS.
+                A real-time chat application with instant messaging.
               </p>
               <a
-                href="https://nirajmohate.github.io/pass-strength-checker/"
+                href="https://real-time-chat-app-6y6v.vercel.app/"
                 target="_blank"
                 class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500"
               >
@@ -109,18 +82,17 @@ const Project = () => {
 
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="https://via.placeholder.com/400x200"
-              alt="Memory Card Game"
+              src="\public\code reviewer.png"
+              alt="Code Reviewer"
               class="w-full h-48 object-cover"
             />
             <div class="p-6">
-              <h2 class="text-xl font-bold mb-2">Memory Card Game</h2>
+              <h2 class="text-xl font-bold mb-2">Code Reviewer</h2>
               <p class="text-gray-600 text-sm mb-4">
-                A fun and interactive card-matching game to test your memory.
-                Built with JavaScript, HTML, and CSS.
+                A tool to review and check code for best practices.
               </p>
               <a
-                href="https://nirajmohate.github.io/memory-card-game/"
+                href="https://code-checker-delta.vercel.app/"
                 target="_blank"
                 class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500"
               >

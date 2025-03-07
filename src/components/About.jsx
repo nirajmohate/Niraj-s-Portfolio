@@ -43,22 +43,23 @@ const About = () => {
                 Bachelor of Computer Applications (BCA)
               </h3>
               <p>
-              SMBST College Sangamner |{" "}
-                <span className="text-blue-600">2022 – 2025 (Expected)</span>
+                SMBST College Sangamner |{" "}
+                <span className="text-blue-600">2022 – Present</span>
               </p>
             </li>
             <li>
               <h3 className="font-semibold text-lg">className 12 (Commerce)</h3>
               <p>
-                SMBST College Sangamner | <span className="text-blue-600">2021</span> |{" "}
+                SMBST College Sangamner |{" "}
+                <span className="text-blue-600">2021</span> |{" "}
                 <span className="text-gray-600">47%</span>
               </p>
             </li>
             <li>
               <h3 className="font-semibold text-lg">className 10</h3>
               <p>
-                MRD Malpani School | <span className="text-blue-600">2019</span> |{" "}
-                <span className="text-gray-600">75%</span>
+                MRD Malpani School | <span className="text-blue-600">2019</span>{" "}
+                | <span className="text-gray-600">75%</span>
               </p>
             </li>
           </ul>
