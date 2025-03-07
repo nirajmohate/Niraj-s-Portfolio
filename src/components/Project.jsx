@@ -19,7 +19,8 @@ const Project = () => {
           {/* Project Card  */}
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="\public\gemini clone.png"
+              // src="\public\gemini clone.png"
+              src={`${process.env.PUBLIC_URL}/public/gemini clone.png`}
               alt="Gemini App Clone"
               class="w-full h-48 object-cover"
             />
