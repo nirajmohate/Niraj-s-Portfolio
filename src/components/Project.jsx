@@ -19,7 +19,7 @@ const Project = () => {
           {/* Project Card  */}
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="/public/gemini clone.png"
+              src="/gemini clone.png"
               alt="Gemini App Clone"
               class="w-full h-48 object-cover"
             />
@@ -40,7 +40,7 @@ const Project = () => {
 
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="/public/animated cricket.png"
+              src="/animated cricket.png" 
               alt="Animated Cricket Web"
               class="w-full h-48 object-cover"
             />
@@ -61,7 +61,7 @@ const Project = () => {
 
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="\public\chat app.png"
+              src="/chat app.png"
               alt="Real-Time Chat App"
               class="w-full h-48 object-cover"
             />
@@ -82,7 +82,7 @@ const Project = () => {
 
           <div class="bg-white shadow-md rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
             <img
-              src="\public\code reviewer.png"
+              src="/code reviewer.png"
               alt="Code Reviewer"
               class="w-full h-48 object-cover"
             />
